@@ -25,3 +25,5 @@ class Grade(Base):
     
     def __repr__(self):
         return f"<Grade(id={self.id}, subject='{self.subject}', score={self.score})>"
+    
+    
